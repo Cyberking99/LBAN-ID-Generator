@@ -64,13 +64,13 @@ function download() {
 }
 
 function writeName(canvas, ctx, theName) {
-    ctx.font = "30px system-ui";
-    ctx.fillText(theName, 380, 350);
+    ctx.font = "35px system-ui";
+    ctx.fillText(theName, 350, 360);
 }
 
 function writePosition(canvas, ctx, thePosition) {
-    ctx.font = "30px system-ui";
-    ctx.fillText(thePosition, 425, 385);
+    ctx.font = "35px system-ui";
+    ctx.fillText(thePosition, 360, 400);
 }
 
 function writeBranch(canvas, ctx, theBranch) {
