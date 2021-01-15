@@ -64,23 +64,23 @@ function download() {
 }
 
 function writeName(canvas, ctx, theName) {
-    ctx.font = "35px system-ui";
+    ctx.font = "33px system-ui";
     ctx.fillText(theName, 350, 360);
 }
 
 function writePosition(canvas, ctx, thePosition) {
-    ctx.font = "35px system-ui";
+    ctx.font = "33px system-ui";
     ctx.fillText(thePosition, 374, 407);
 }
 
 function writeBranch(canvas, ctx, theBranch) {
-    ctx.font = "30px system-ui";
-    ctx.fillText(theBranch, 370, 454);
+    ctx.font = "33px system-ui";
+    ctx.fillText(theBranch, 368, 450);
 }
 
 function writeId(canvas, ctx, theId) {
-    ctx.font = "30px system-ui";
-    ctx.fillText(theId, 380, 537);
+    ctx.font = "33px system-ui";
+    ctx.fillText(theId, 350, 485);
 }
 
 function handleInputName(e) {
