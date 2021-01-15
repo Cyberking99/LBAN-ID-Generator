@@ -70,12 +70,12 @@ function writeName(canvas, ctx, theName) {
 
 function writePosition(canvas, ctx, thePosition) {
     ctx.font = "33px system-ui";
-    ctx.fillText(thePosition, 374, 407);
+    ctx.fillText(thePosition, 374, 406);
 }
 
 function writeBranch(canvas, ctx, theBranch) {
     ctx.font = "33px system-ui";
-    ctx.fillText(theBranch, 368, 450);
+    ctx.fillText(theBranch, 366, 448);
 }
 
 function writeId(canvas, ctx, theId) {
