@@ -1,4 +1,4 @@
-const userID = `LBAN-${new Date().getDate()}${new Date().getMonth()}${new Date().getYear()}${new Date().getUTCMilliseconds()}`;
+const userID = `LBA-${new Date().getDate()}${new Date().getMonth()}${new Date().getYear()}${new Date().getUTCMilliseconds()}`;
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
