@@ -65,7 +65,7 @@ function download() {
 
 function writeName(canvas, ctx, theName) {
     ctx.font = "30px system-ui";
-    ctx.fillText(theName, 500, 310);
+    ctx.fillText(theName, 380, 350);
 }
 
 function writePosition(canvas, ctx, thePosition) {
