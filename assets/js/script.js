@@ -75,7 +75,7 @@ function writePosition(canvas, ctx, thePosition) {
 
 function writeBranch(canvas, ctx, theBranch) {
     ctx.font = "33px system-ui";
-    ctx.fillText(theBranch, 366, 448);
+    ctx.fillText(theBranch, 366, 446);
 }
 
 function writeId(canvas, ctx, theId) {
