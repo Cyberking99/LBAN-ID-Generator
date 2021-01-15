@@ -47,7 +47,7 @@ function handleImage(e) {
         img.onload = function() {
             const canvas = document.getElementById("canvas");
             const ctx = canvas.getContext("2d");
-            ctx.drawImage(img, 715, 180, 400, 450);
+            ctx.drawImage(img, 715, 200, 400, 450);
         };
         img.src = event.target.result;
     };
